@@ -1,3 +1,9 @@
+let express = require('express')
+let cors = require('cors')
+let app = express()
+ 
+app.use(cors())
+
 const inputfield = document.getElementById('inputfield');
 const search = document.getElementById('search');
 const paragraph = document.getElementById('paragraph');
